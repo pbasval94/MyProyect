@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="mi primer aapp"
+        android:textColor="#000F4A"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/escribeMsj"
+        android:layout_width="210dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:hint="Escribe tu Mensaje:"
+        android:inputType="textShortMessage"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/boton"
+        android:layout_width="298dp"
+        android:layout_height="394dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:src="@drawable/p" />
+
+    <TextView
+        android:id="@+id/respuestavista"
+        android:layout_width="144dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="60dp"
+        android:textStyle="bold"
+        android:text="..."
+        android:textColor="#000F4A"
+        android:textSize="26sp" />
+</LinearLayout>
